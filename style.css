@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mukta", sans-serif;
+}
+
+.toggle{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+#check{
+    display: none;
+}
+.month-label{
+    display: none;
+}
+#check:checked ~ .month-label{
+    display: inline-block;
+}
+#check:checked ~ .year-label{
+    display: none;
+}
+
+.discount{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.price-section{
+    width: 70%;
+    margin: auto;
+}
+.card{
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+}
+.card h3{
+    font-size: 2rem;
+}
+.card-desc{
+    width: 50%;
+    margin: auto;
+}
+.card-price{
+    margin: 1.3rem 0;
+    font-size: 1.4rem;
+}
+.price{
+    font-size: 3rem;
+}
